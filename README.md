@@ -5,7 +5,7 @@
 Okuyanlar is a Library Management System developed with a strong emphasis on **Clean Architecture** principles and a **Test-Driven Development (TDD)** approach. The project is designed to be modular, scalable, and maintainable, adhering to strict separation of concerns.
 
 ## Architecture
-The solution implements **Onion (Clean) Architecture**, ensuring that the domain logic remains independent of external frameworks and databases. Dependencies flow inwards, with the Core layer at the center.
+The solution leverages Onion (Clean) Architecture to isolate domain logic from external concerns like frameworks and databases. Adhering to the Dependency Inversion Principle, all dependencies flow inward toward the Core.
 
 ### Solution Structure
 The solution is divided into the following specialized projects:
